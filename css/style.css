@@ -1,0 +1,257 @@
+/* Body text */
+body { 
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #FAF8F4; /* Soft Off-White */
+    margin: 40px;
+    color: #5A5A5A; /* Softer dark gray */
+    line-height: 1.6; /* Increased line height for better readability */
+}
+
+/* Header Text */
+h1 {
+    font-size: 2.5rem; /* Larger font for main heading */
+    font-weight: 700; /* Bold for emphasis */
+    color: #6B8D77; /* Soft Sage Green */
+    text-align: center;
+    margin-bottom: 25px; /* Increased margin for spacing */
+    letter-spacing: 0.5px; /* Slight letter spacing to make it airy */
+}
+
+h2 {
+    font-size: 2rem; /* Slightly smaller for subheadings */
+    font-weight: 600; /* Semi-bold for subheadings */
+    color: #6B8D77; /* Soft Sage Green */
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 0.3px; /* Subtle spacing for clarity */
+}
+
+h3 {
+    font-size: 1.75rem; /* Smaller font size for tertiary headings */
+    font-weight: 500; /* Regular weight for clarity */
+    color: #6B8D77; /* Soft Sage Green */
+    text-align: center;
+    margin-bottom: 15px;
+    letter-spacing: 0.3px; 
+}
+
+/* Paragraph text */
+p {
+    font-size: 1rem; /* Standard text size for paragraphs */
+    color: #5A5A5A; /* Softer dark gray */
+    line-height: 1.7; /* Increased line height for better readability */
+    margin-bottom: 20px; /* Space between paragraphs */
+    letter-spacing: 0.5px; /* Slight letter spacing for clarity */
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #F7DDE2; /* Light Dusty Pink for links */
+    font-weight: 600; /* Bold links for emphasis */
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #E7BBC5; /* Slightly deeper pink on hover */
+}
+
+/* Button text */
+button {
+    font-size: 16px; /* Consistent with input fields */
+    font-weight: 600; /* Slightly bolder for button text */
+    letter-spacing: 0.5px; /* Slight letter spacing for readability */
+}
+
+/* Input and Textarea Text */
+input, textarea {
+    font-size: 16px; /* Standard size */
+    font-weight: 400; /* Regular weight */
+    letter-spacing: 0.3px; /* Minor spacing for clarity */
+}
+
+/* Error text */
+.error {
+    font-size: 1rem;
+    font-weight: 600; /* Bold to emphasize error */
+    color: #E76F51; /* Soft red-orange for errors */
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px; /* Spacing for visual clarity */
+}
+
+/* Footer text */
+.footer {
+    text-align: center;
+    margin-top: 60px; /* Increased top margin */
+    font-size: 14px;
+    color: #AAA; /* Soft gray for footer */
+    letter-spacing: 0.3px; /* Subtle spacing */
+    font-weight: 400; /* Regular weight for footer text */
+}
+
+/* Body Styling */
+body { 
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #FAF8F4; /* Soft Off-White from your logo */
+    margin: 40px;
+    color: #5A5A5A; /* Softer dark gray */
+    line-height: 1.6; /* Improved readability */
+}
+
+/* Container */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    padding: 20px; /* Increased padding for better spacing */
+    border-radius: 20px; /* More rounded corners */
+    box-shadow: 0 12px 24px rgba(125, 157, 135, 0.1); /* Soft shadow with more depth */
+}
+
+/* Header Styles */
+h1, h2, h3 {
+    color: #6B8D77; /* Soft Sage Green */
+    text-align: center;
+    margin-bottom: 15px; /* Added margin for spacing */
+}
+
+/* Input, Textarea, Button */
+input, textarea, button {
+    display: block;
+    margin: 15px auto; /* Increased spacing */
+    padding: 15px 20px; /* Larger padding for better usability */
+    width: 90%;
+    border: 1px solid #C8D6C1; /* Pale Mint Green border */
+    border-radius: 10px; /* Slightly larger rounded corners */
+    font-size: 16px;
+    transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+input:focus, textarea:focus {
+    border-color: #7D9D87; /* Sage green focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(125, 157, 135, 0.2); /* Light green glow on focus */
+}
+
+button {
+    background-color: #7D9D87; /* Sage green */
+    color: #FAF8F4; /* Off-white text */
+    border: none;
+    cursor: pointer;
+    padding: 12px 30px; /* Increased padding for better click area */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+}
+
+button:hover {
+    background-color: #6B8D77; /* Slightly darker green on hover */
+    transform: translateY(-3px); /* Subtle lift effect */
+}
+
+/* Lists */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Remove default margin for better alignment */
+}
+
+li {
+    margin-bottom: 25px; /* More spacing between items */
+    padding-bottom: 15px; /* Increased padding */
+    border-bottom: 1px solid #E6E6E6;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: rgb(218, 116, 136); /* Light Dusty Pink for links */
+    margin-right: 15px; /* More space between links */
+    font-weight: 600; /* Slightly bolder for emphasis */
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #E7BBC5; /* Slightly deeper pink on hover */
+}
+
+/* Error Text */
+.error {
+    font-size: 1rem;
+    font-weight: 600; /* Bold to emphasize error */
+    color: #E76F51; /* Soft red-orange for errors */
+    text-align: center;
+    margin-bottom: 20px; /* More space for better separation */
+}
+
+/* Note Cards */
+.note-card {
+    background: #F0F8F0; /* Very light minty background */
+    padding: 25px;
+    border-radius: 15px; /* Rounder corners */
+    box-shadow: 0 6px 15px rgba(125, 157, 135, 0.1); /* Softer shadow with depth */
+    margin-bottom: 30px; /* More spacing between cards */
+    transition: transform 0.3s ease; /* Smooth transformation effect */
+}
+
+.note-card:hover {
+    transform: translateY(-5px); /* Subtle lift effect on hover */
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 40px; /* Increased top margin */
+    font-size: 14px;
+    color: #AAA;
+}
+
+/* Logo Container */
+.logo-container {
+    background-image: url('logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; /* center the image */
+    height: 200px; /* reduced height for a cleaner look */
+    width: 270px; /* slightly narrower for balance */
+    margin: 20px auto; /* center it with better top/bottom spacing */
+    transition: transform 0.3s ease;
+}
+
+
+.logo-container1 {
+    background-image: url('logo1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px; /* Slightly larger logo */
+    width: 300px; /* Matching width for symmetry */
+    margin: 10px auto; /* Better spacing around the logo */
+    transition: transform 0.3s ease;
+} 
+
+.logo-container2 {
+    background-image: url('logo2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px; /* Slightly larger logo */
+    width: 300px; /* Matching width for symmetry */
+    margin: 10px auto; /* Better spacing around the logo */
+    transition: transform 0.3s ease;
+} 
+
+.logo-container3 {
+    background-image: url('logo3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px; /* Slightly larger logo */
+    width: 300px; /* Matching width for symmetry */
+    margin: 10px auto; /* Better spacing around the logo */
+    transition: transform 0.3s ease;
+}
+.logo-container:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
