@@ -7,6 +7,14 @@ services:
       - "8080:80"
     depends_on:
       - db
+    # Wait for db to be fully available
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:80/"]
+      interval: 30s
+      retries: 5
+      start_period: 30s
+      timeout: 10s
+
   db:
     image: mysql:8.0
     environment:
@@ -16,6 +24,12 @@ services:
       MYSQL_ROOT_PASSWORD: rootpass
     volumes:
       - db_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "-u", "root", "-p${MYSQL_ROOT_PASSWORD}", "ping"]
+      interval: 30s
+      retries: 5
+      start_period: 30s
+      timeout: 10s
 
 volumes:
   db_data:
