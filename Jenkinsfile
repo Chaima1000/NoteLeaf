@@ -14,7 +14,7 @@ pipeline {
 
         stage('Build with Maven') {
             steps {
-                sh 'mvn clean install'
+                sh 'cd NoteLeaf && mvn clean install'
             }
         }
 
