@@ -12,12 +12,6 @@ pipeline {
             }
         }
 
-        stage('Build with Maven') {
-            steps {
-                sh 'cd NoteLeaf && mvn clean install'
-            }
-        }
-
         stage('Build Docker Image') {
             steps {
                 sh 'docker build -t $IMAGE_NAME .'
