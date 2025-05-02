@@ -4,7 +4,7 @@ services:
   web:
     build: .
     ports:
-      - "8081:80"
+      - "9000:80"  # ✅ Map host port 9000 to container port 80
     depends_on:
       - db
     healthcheck:
@@ -23,9 +23,9 @@ services:
       MYSQL_PASSWORD: pass
     volumes:
       - db_data:/var/lib/mysql
-      - ./init-db.sh:/docker-entrypoint-initdb.d/init-db.sh  # Mount the init script
+      - ./init-db.sh:/docker-entrypoint-initdb.d/init-db.sh
     healthcheck:
-      test: ["CMD", "mysqladmin", "-u", "root", "-p${MYSQL_ROOT_PASSWORD}", "ping"]
+      test: ["CMD", "mysqladmin", "-u", "root", "-prootpass", "ping"]
       interval: 30s
       retries: 5
       start_period: 30s
